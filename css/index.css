@@ -1,0 +1,115 @@
+#landingDiv {
+  padding-top: 8vh;
+  height: 95vh;
+}
+
+#bot {
+  position: absolute;
+  bottom: 0;
+  max-width: 550px;
+  width: 100%;
+}
+
+
+@media (min-width: 992px) {
+  #intro {
+    text-align: left !important;
+    margin-top: auto;
+    padding-right: 5%;
+    margin-bottom: auto;
+  }
+
+  #landingRect {
+    margin-left: inherit;
+  }
+
+  #bot {
+    max-width: 720px;
+  }
+
+  #landingDiv {
+    padding-top: 8vh;
+    height: 100vh;
+  }
+}
+
+
+.project {
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  box-shadow: 0 0 2px 2px #f4f4f4;
+}
+
+.project-tag {
+  border: 1px solid #0275d8;
+  border-radius: 5px;
+  padding: 8px 15px;
+  font-size: 0.9em;
+  margin-top: 12px !important;
+  margin-right: 8px;
+  color: #0275d8;
+}
+
+.project-tag-dist {
+  border-color: #f0ad4e;
+  color: #f0ad4e;
+}
+
+.project-github {
+  color: #9d9d9d;
+  margin: auto 2px;
+  font-size: 25px !important;
+}
+
+.project-github:hover {
+  color: #444;
+}
+
+.project-details
+, .project-details:hover {
+  color: var(--darkText);
+}
+
+.fade-in,
+#contact {
+  display: none;
+}
+
+.nav-section {
+  padding-top: 80px !important;
+  margin-top: 0px !important;
+}
+
+
+#contact a {
+  color: #aaa;
+  margin: auto 10px;
+}
+
+#contact i {
+  color: #ddd;
+  font-size: 25px !important;
+}
+
+#contact a:hover
+, #contact a:hover i {
+  color: #888;
+  text-decoration: none;
+}
+
+.contact {
+  color: #aaa;
+  margin: auto 8px;
+}
+
+.contact i {
+  color: #ddd;
+  font-size: 25px !important;
+}
+
+.contact:hover
+, .contact:hover i {
+  color: #888;
+  text-decoration: none;
+}
